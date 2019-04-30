@@ -1,9 +1,20 @@
 body {
-	background-color: olive;
+	background: url("images_mogwai.png");
+	text-align: center;
+	
 
+}
+
+h1 {
+	text-decoration: underline;
 }
 
 h1, p {
 
-	color: white;
+	color: #665555;
+
+}
+
+img {
+	float: right;
 }
