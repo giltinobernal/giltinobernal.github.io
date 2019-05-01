@@ -21,7 +21,7 @@ h1, h2 {
 .hero-image {
 
 	
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/gilti/Documents/gen_assem/github/giltinobernal.github.io/unit_3/hero.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".../images/hero.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -76,9 +76,9 @@ p {
 
 }
 
-.ul {
+ul {
 	
-	list-style-position: inside;
+	
 	text-align: center;
 	list-style-type: none;
 	
