@@ -1,23 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Numans|Tauri');
+
 *{
-	padding: 30;
+	padding: 0;
 	margin: 0;
 }
 
 body,html {
 
+	font-size: 16px; /*1em = 16px*/
 	height: 100%;
-	font-family: tahoma, arila, sans serif; 
-	color: white;
+	font-family: 'Numans';
+	color: #FFE7FF;
+
 
 
 }
 
-h1, h2 {
+h1 {
+
+	font-family: tahoma, sarila, sans serif; 
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+
+}
+
+h2 {
 
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 15px;
+	padding-top: 15px;
+
 }
+
+
 .hero-image {
 
 	
@@ -50,39 +66,61 @@ background-repeat: no-repeat;
 
 } */
 
-button {
-	background-color: rgb(30, 130, 76);
-	color: white;
+.button {
+	background-color: #0ECC2E;
+	border: none;
+	border-radius: 10px;
+	color: red;
 	transition-duration: 0.4s;
-	text-decoration: none;
 	display: inline-block;
 	padding: 7px;
 }
 
-button:hover {
-	background-color: rgb(46, 204, 113);
-	
-}
+.button:hover {
+	background-color: #80FE86;
+	}
 
-button a{
+.button a{
 	text-decoration: none;
+	color: #3D3DFF;
 }
 
 p {
 	
-	padding-top: 20px;
-	padding-bottom: 20px;
+	width: 480px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 3px;
 	text-align: center;
+	position: relative;
+	line-height: 1.5em;
+
 
 }
 
 ul {
 	
-	
 	text-align: center;
 	list-style-type: none;
 	
+	}
 
+.Know {
+	
+	text-align: center;
+	font-family:'Tauri', sans-serif;
+	line-height: 1.5em;
+}	
+
+hr {
+
+
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 200px;
+	margin:auto;
+	padding-top: 5px;
 
 }
 

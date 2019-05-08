@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Numans|Tauri');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body,html {
+
+	font-size: 16px; /*1em = 16px*/
+	height: 100%;
+	font-family: 'Numans';
+	color: #FFE7FF;
+
+
+
+}
+
+h1 {
+
+	font-family: tahoma, sarila, sans serif; 
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+
+}
+
+h2 {
+
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+
+.hero-image {
+
+	
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+}
+
+/*.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+*/
+
+/*img {
+
+max-width: 100%;
+height: auto;
+background-size: 100%;
+background-position: 50%
+background-repeat: no-repeat;
+
+} */
+
+.button {
+	background-color: #0ECC2E;
+	border: none;
+	border-radius: 10px;
+	color: red;
+	transition-duration: 0.4s;
+	display: inline-block;
+	padding: 7px;
+}
+
+.button:hover {
+	background-color: #80FE86;
+	}
+
+.button a{
+	text-decoration: none;
+	color: #3D3DFF;
+}
+
+p {
+	
+	width: 480px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	text-align: center;
+	position: relative;
+	line-height: 1.5em;
+
+
+}
+
+ul {
+	
+	text-align: center;
+	list-style-type: none;
+	
+	}
+
+.Know {
+	
+	text-align: center;
+	font-family:'Tauri', sans-serif;
+	line-height: 1.5em;
+}	
+
+hr {
+
+
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 200px;
+	margin:auto;
+	padding-top: 5px;
+
+}
+
+footer {
+	background-color: rgb(30, 130, 76);
+	padding: 5px;
+	text-align: center;
+}
+
+footer a{
+
+	text-decoration: none;
+	color: white;
+}
