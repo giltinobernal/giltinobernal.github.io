@@ -59,6 +59,12 @@ h2 {
 	color: #3D3DFF;
 }
 
+#buttoncard { 
+   
+   border: 1px solid #3D3DFF;
+
+ }
+
 p {
 	width: 30em;
 	margin: auto;
@@ -90,7 +96,9 @@ hr {
 
 #ul {
 	width: 8em;
-	border-color: rgb(30, 130, 76);
+	background: rgb(30, 130, 76);
+	height: 1px;
+	border: none;
 }
 
 .container {
