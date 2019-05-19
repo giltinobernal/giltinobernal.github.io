@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Numans|Tauri');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body,html {
+	font-size: 16px; /*1em = 16px*/
+	height: 100%;
+	font-family: 'Numans';
+	color: #FBFEFF;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg"); /*this is temporary*/
+	background-position: center, relative;
+	background-repeat: repeat-y 2;
+	background-size: cover;
+	background-size: 100%;
+}
+
+h1 {
+	font-family: tahoma, sarila, sans serif; 
+	text-align: center;
+	padding-top: .5em 0 .5em;
+	letter-spacing: .2em;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 1em;
+}
+
+/*.hero-image {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: relative;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+}*/
+
+.button {
+	background-color: #0ECC2E;
+	border: none;
+	border-radius: .6em;
+	color: red;
+	transition-duration: 0.4s;
+	display: inline-block;
+	padding: .5em;
+	margin: 1em;
+}
+
+.button:hover {
+	background-color: #80FE86;
+	}
+
+.button a{
+	text-decoration: none;
+	color: #3D3DFF;
+}
+
+p {
+	width: 30em;
+	margin: auto;
+	padding: 1.6em;
+	text-align: center;
+	position: relative;
+	line-height: 1.5em;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+.iknow {
+	text-align: center;
+	font-family:'Tauri', sans-serif;
+	line-height: 1.5em;
+}	
+
+hr {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 20em;
+	margin: auto;
+	padding-top: .25em;
+}
+
+#ul {
+	width: 8em;
+	border-color: rgb(30, 130, 76);
+}
+
+.container {
+	text-align: center;
+}
+
+#card{
+	position: relative;
+	text-align: center;
+	background: rgb(30, 130, 76);
+	width: 30%;
+	margin: 1.5%;
+	position: relative;
+	display: inline-block;
+
+}
+
+.column{
+	width: 33%;
+	float: left
+}
+
+clearfix:after{
+	visibility: hidden;
+	font-size: 0;
+	height: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+div button {
+	
+}
+
+footer {
+	background-color: rgb(30, 130, 76);
+	padding: .5em;
+	text-align: center;
+	clear:both;
+}
+
+footer a{
+	padding-left: .5em;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+

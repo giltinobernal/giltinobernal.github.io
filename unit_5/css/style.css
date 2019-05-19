@@ -68,6 +68,12 @@ p {
 	line-height: 1.5em;
 }
 
+div+p {
+	text-align: center;
+	font-family:'Tauri', sans-serif;
+	line-height: 1.5em;
+}
+
 ul {
 	text-align: center;
 	list-style-type: none;
@@ -93,18 +99,30 @@ hr {
 	border-color: rgb(30, 130, 76);
 }
 
+.container {
+	text-align: center;
+	
+}
+
 .card{
 	position: relative;
 	text-align: center;
 	background: rgb(30, 130, 76);
-	width:20em;
-	margin:1em;
+	width: 20em;
+	margin: 1em;
+	
+	position: relative;
+	display: inline-block;
+
+
 }
+
 
 footer {
 	background-color: rgb(30, 130, 76);
 	padding: .5em;
 	text-align: center;
+	clear:both;
 }
 
 footer a{
@@ -113,40 +131,7 @@ footer a{
 	color: white;
 }
 
-header {
-	background-color: #FFED74;
-	border:1px black solid;
-	padding: 20px;
-}
 
-nav {
-	background-color: #E8C66A;
-	border:1px black solid;
-	padding: 20px;
-}
 
-aside {
-	background-color: #FFC675;
-	border:1px black solid;
-	padding: 20px;
-}
-
-article {
-	background-color: #E89C6C;
-	border:1px black solid;
-	padding: 20px;
-}
-
-footer {
-	background-color: #FF957E;
-	border:1px black solid;
-	padding: 20px;
-}
-
-div {
-	background-color: #FFE2B8;
-	border:1px black solid;
-	padding: 20px;
-}
 
 
