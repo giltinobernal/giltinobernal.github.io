@@ -9,24 +9,27 @@ body,html {
 	font-size: 16px; /*1em = 16px*/
 	height: 100%;
 	font-family: 'Numans';
-	color: #FBFEFF;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg"); /*this is temporary*/
-	background-position: center, relative;
-	background-repeat: repeat-y 2;
-	background-size: cover;
+	color: #030203;
+	background: #E8ECED;
+}
+
+header {
+	height: 12em;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/workinghp.jpg"); 
+	background-position: center;
 	background-size: 100%;
+	width: 100%;
+	color: #FBFEFF;
+	margin-bottom: 1em;
 }
 
-h1 {
-	font-family: tahoma, sarila, sans serif; 
-	text-align: center;
-	padding-top: .5em 0 .5em;
-	letter-spacing: .2em;
-}
-
-h2 {
-	text-align: center;
+ header ul {
+	font-family: tahoma, sarila, sans serif;
+	font-size: 2em;
+	letter-spacing: .1em;
+	margin-left: 4em;
 	padding-top: 1em;
+	text-align: left;
 }
 
 /*.hero-image {
@@ -43,11 +46,12 @@ h2 {
 	background-color: #0ECC2E;
 	border: none;
 	border-radius: .6em;
-	color: red;
 	transition-duration: 0.4s;
-	display: inline-block;
+	display: inline;
 	padding: .5em;
 	margin: 1em;
+	float: left;
+	position: fixed;
 }
 
 .button:hover {
@@ -56,33 +60,44 @@ h2 {
 
 .button a{
 	text-decoration: none;
-	color: #3D3DFF;
+	color: #030203;
 }
 
-#buttoncard { 
-   
-   border: 1px solid #3D3DFF;
-
- }
-
-p {
-	width: 30em;
-	margin: auto;
-	padding: 1.6em;
+section {
 	text-align: center;
+	background: white;
+	margin: 1em;
+
+}
+
+#statement p{
+	display: inline-block;
+	width: 30em;
+	padding: 2em;
+	text-align: center;
+	margin: auto;
 	position: relative;
 	line-height: 1.5em;
+	text-align: center;
+}
+
+#statement img{
+	text-align: center;
+	width: 10em;
+	border-radius: .6em
 }
 
 ul {
 	text-align: center;
 	list-style-type: none;
+	margin: 1em;
 }
 
 .iknow {
 	text-align: center;
 	font-family:'Tauri', sans-serif;
 	line-height: 1.5em;
+	margin-top: 1em;
 }	
 
 hr {
@@ -92,51 +107,35 @@ hr {
 	width: 20em;
 	margin: auto;
 	padding-top: .25em;
+	border-color: #0ECC2E;
 }
 
 #ul {
 	width: 8em;
-	background: rgb(30, 130, 76);
-	height: 1px;
-	border: none;
+	border-color: rgb(30, 130, 76);
 }
 
-.container {
+#uxui img {
+	width: 80%;
+	background: 
+}
+
+/*.container {
 	text-align: center;
-}
-
-#card{
-	position: relative;
-	text-align: center;
-	background: rgb(30, 130, 76);
-	width: 30%;
-	margin: 1.5%;
-	position: relative;
-	display: inline-block;
-
-}
-
-.column{
-	width: 33%;
-	float: left
-}
-
-clearfix:after{
-	visibility: hidden;
-	font-size: 0;
-	height: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-.wrapper {
-	width: 100%;
-}
-
-div button {
 	
 }
+
+.card{
+	position: relative;
+	text-align: center;
+	background: rgb(30, 130, 76);
+	width: 20em;
+	margin: 1em;
+	
+	position: relative;
+	display: inline-block;
+}*/
+
 
 footer {
 	background-color: rgb(30, 130, 76);
@@ -150,6 +149,7 @@ footer a{
 	text-decoration: none;
 	color: white;
 }
+
 
 
 
