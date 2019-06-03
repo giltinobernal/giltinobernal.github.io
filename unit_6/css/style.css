@@ -10,7 +10,7 @@ body,html {
 	height: 100%;
 	font-family: 'Numans';
 	color: #030203;
-	background: #E8ECED;
+	background: #BFBDB6;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 }*/
 
 .button {
-	background-color: #0ECC2E;
+	background-color: #DFE6E6;
 	border: none;
 	border-radius: .6em;
 	transition-duration: 0.4s;
@@ -52,12 +52,17 @@ header {
 	margin: 1em;
 	float: left;
 	position: fixed;
+	text-align: left;
 }
 
 .button:hover {
-	background-color: #80FE86;
-	}
+	background-color: #030203;
+	text-align: center;
+}
 
+.button:hover a {
+	color: white;
+}
 .button a{
 	text-decoration: none;
 	color: #030203;
@@ -66,8 +71,7 @@ header {
 section {
 	text-align: center;
 	background: white;
-	margin: 1em;
-
+	margin: 2em 1em 1em;
 }
 
 #statement p{
@@ -82,8 +86,8 @@ section {
 }
 
 #statement img{
-	text-align: center;
-	width: 10em;
+	margin-top: 5%;
+	width: 20%;
 	border-radius: .6em
 }
 
@@ -97,7 +101,7 @@ ul {
 	text-align: center;
 	font-family:'Tauri', sans-serif;
 	line-height: 1.5em;
-	margin-top: 1em;
+	margin-top: 2em;
 }	
 
 hr {
@@ -106,18 +110,57 @@ hr {
 	border-left: none;
 	width: 20em;
 	margin: auto;
-	padding-top: .25em;
-	border-color: #0ECC2E;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-color: #030203;
 }
 
 #ul {
 	width: 8em;
-	border-color: rgb(30, 130, 76);
+	border-color: #030203;
+}
+
+section a {
+	text-decoration: none;
+	color: #030203;
+}
+
+#uxui {
+	background: white;
+	font-family:'Tauri', sans-serif;
 }
 
 #uxui img {
-	width: 80%;
-	background: 
+	width: 100%;
+	max-width: 520px;
+}
+
+#uxui p {
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+}
+
+#uxtitle p {
+	background-color: #DFE6E6;
+	border: none;
+	border-radius: .6em;
+	transition-duration: 0.4s;
+	padding: .5em;
+	margin: 2em auto;
+	text-align: center;
+	width: 50%;
+
+}
+
+#uxtitle:hover {
+	background-color: #030203;
+	}
+
+#uxtitle:hover a {
+	color: white;
 }
 
 /*.container {
@@ -138,10 +181,11 @@ hr {
 
 
 footer {
-	background-color: rgb(30, 130, 76);
+	background-color: #030203;
 	padding: .5em;
 	text-align: center;
 	clear:both;
+	color: white;
 }
 
 footer a{
@@ -150,7 +194,11 @@ footer a{
 	color: white;
 }
 
-
+@media screen only and (max-width: 768px) {
+	#statement img {
+		display: none;
+	}
+}
 
 
 
