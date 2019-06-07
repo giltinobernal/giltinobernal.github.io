@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Numans|Tauri');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body,html {
+	font-size: 16px; /*1em = 16px*/
+	height: 100%;
+	font-family: 'Numans';
+	color: #030203;
+	background: #8daed6;
+}
+
+header {
+	height: 12em;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/workinghp.jpg"); 
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	color: #FBFEFF;
+	margin-bottom: 1em;
+}
+
+ header ul {
+	font-family: tahoma, sarila, sans serif;
+	font-size: 2em;
+	letter-spacing: .1em;
+	margin-left: 4em;
+	padding-top: 1em;
+	text-align: left;
+}
+
+h3 {
+	font-family: 'Numans';
+	font-size: 1.5em;
+	padding: 2em;
+}
+
+.button {
+	background-color: #DFE6E6;
+	border: none;
+	border-radius: .6em;
+	transition-duration: 0.4s;
+	display: inline;
+	padding: .5em;
+	margin: 1em;
+	float: left;
+	position: fixed;
+	text-align: left;
+}
+
+.button:hover {
+	background-color: #030203;
+	text-align: center;
+}
+
+.button:hover a {
+	color: white;
+}
+.button a{
+	text-decoration: none;
+	color: #030203;
+}
+
+section {
+	text-align: center;
+	background: white;
+	margin: 2em 1em 1em;
+}
+
+#statement p{
+	display: inline-block;
+	max-width: 30em;
+	width: auto;
+	padding: 2em;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#statement img{
+	margin-top: 5%;
+	width: 20%;
+	border-radius: .6em
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	margin: 1em;
+}
+
+.iknow {
+	text-align: center;
+	font-family:'Tauri', sans-serif;
+	line-height: 1.5em;
+	margin: 5em auto;
+	padding-bottom: none;
+
+}	
+
+hr {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 20em;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-color: #030203;
+}
+
+#ul {
+	width: 8em;
+	border-color: #030203;
+}
+
+section a {
+	text-decoration: none;
+	color: #030203;
+}
+
+.uxui {
+	background: white;
+	font-family:'Tauri', sans-serif;
+}
+
+.uxui img {
+	width: 100%;
+	max-width: 520px;
+}
+
+/*.uxui p {
+	margin: 1em auto;
+	font-size: 1.5em;
+	text-align: center;
+	
+}*/
+
+#uxtitle {
+	background-color: white;
+	border: none;
+	border-radius: 0;
+	transition-duration: 0.4s;
+	padding: .5em 0 2em;
+	margin: 1em auto;
+	font-size: 1.5em;
+	text-align: center;
+	display: block;
+}
+
+#uxtitle:hover {
+	background-color: #030203;
+	color: white;
+	}
+
+footer {
+	background-color: #030203;
+	padding: 2em;
+	text-align: center;
+	clear:both;
+	color: white;
+}
+
+footer a{
+	padding-left: .5em;
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	#statement img {
+		display: none;
+	}
+
+	header ul {
+		padding-top: none;
+	}
+}
+
+@media only screen and (
+	max-width: 600px) {
+	header ul {
+		padding: 0px;
+	}
+}
+
+
