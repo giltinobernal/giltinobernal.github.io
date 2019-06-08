@@ -42,18 +42,21 @@ h3 {
 	background-color: #DFE6E6;
 	border: none;
 	border-radius: .6em;
-	transition-duration: 0.4s;
+	transition-duration: 1s;
 	display: inline;
 	padding: .5em;
 	margin: 1em;
 	float: left;
 	position: fixed;
 	text-align: left;
+	text-decoration: none;
+	color: #030203;
 }
 
 .button:hover {
 	background-color: #030203;
 	text-align: center;
+	color: #FBFEFF;
 }
 
 .button:hover a {
